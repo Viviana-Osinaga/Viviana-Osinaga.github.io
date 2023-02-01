@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- se aconseja ponerlo antes del cierre del body <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Viviana Soliz">
+    <meta name="description" content="Mi Curriculum">
+    <meta name="keywords" content="html, css, javascript">
+    <!-- Favicon -->
+    <link rel="shortcut icon"  href="code.svg">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@100&display=swap" rel="stylesheet">
+
+    <title>Viviana Soliz | Desarrollo web Front-End</title>
+    <h1> Viviana Soliz | Front-End | Desarrollo Web</h1>
+    <i class="bi bi-gender-female"></i>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md"> <!--bg-body-tertiary-->
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-Toggler">
+            <a class="navbar-brand" href="#">
+                <img src="code.svg" width="50px" alt="Mi logo"> <!--es el favicon-->
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#sobre-mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#conocimientos">Conocimientos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- imagen de fondo -->
+      <div class="imagen-de-fondo">
+        <img src="codigo.jpg" alt="tecleando" class="foto1" id="foto1">
+        <img src="vivi.jpg" alt="mi foto" class="rounded-circle justify-content-center">
+    </div>
+
+    <!-- Sobre mí! -->
+    <section class="seccion-hero" id="sobre-mi">
+      <div class="container">
+        <p class="saludo">Hola soy!</p>
+        <h2>Viviana Soliz Osinaga</h2>
+        <p>Soy Desarrolladora web, amo la programacion me quiero dedicar a esto de lleno. Quiero seguir aprendiendo, ganar conocimiento. Mi objetivo es adquirir experiencia y enfrentarme a nuevos retos. Me puedes contactar y te ayudaré en lo que necesites!</p>
+      </div>
+    </section>
+
+    <!-- Experiencias! -->
+    <section class="seccion-experiencias" id="experiencia">
+      <h2> Mi experiencia </h2>
+      <p class="p-section">Manejo las siguientes tecnologías</p>
+      <div class="container m-3">
+        <button type="button" class="btn btn-outline-primary text-white">Html</button>
+        <button type="button" class="btn btn-outline-primary text-white">Css</button>
+        <button type="button" class="btn btn-outline-primary text-white">Bootstrap</button>
+        <button type="button" class="btn btn-outline-primary text-white">Javascript</button>
+        <button type="button" class="btn btn-outline-primary text-white">Python</button>
+        <button type="button" class="btn btn-outline-primary text-white">Mysql</button>
+        <button type="button" class="btn btn-outline-primary text-white">Git</button>
+      </div>
+    </section>
+
+    <!-- Conocimientos -->
+    <section class="seccion-conocimiento" id="conocimientos">
+      <div class="container-fluid mt-3" >
+          <div class="row">
+            <div class="col-4 p-3 align-items-center">
+              <h2>CFL San Isidro</h2>
+              <p> Centro de formacion laboral 404, aprendí la logica de programacion, a resolver algoritmos de programacion con el lenguaje de Python. Utilizar herramientas de diseño de diagramas de flujo.</p>
+              <a href="https://cfl404sanisidro.edu.ar/#!/-cfl-404-barrio-la-cava---san-isidro/" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn">CFL 404 
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
+              </a>
+            </div>
+            <div class="col-4 p-3">
+              <h2>FABLAB Vicente Lopez</h2>
+              <p> Realicé 2 cursos, uno sobre Diseño Web inicial usando Html y Css. Y el otro curso sobre Bases de Datos Relacionales en el cual aprendí el lenguaje Sql usando Mysql.</p>
+              <a href="https://formacion.mvl.edu.ar/formacion/" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn">Fablab 
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
+              </a>
+            </div>
+            <div class="col-4 p-3">
+              <h2>Argentina Programa</h2>
+              <p>Fortalecí mis conocimientos en logica de programacion, aprendí programacion funcional con javascript y programacion orientada a objetos con Ruby. El curso de Front-End en la plataforma de Ticmas</p>
+              <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn">Argentina Programa 
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+<!-- Contacto -->
+<footer id="contacto">
+  <a href="https://github.com/Viviana-Osinaga" target="_blank" rel="noopener noreferrer">
+    <button type="button" class="btn">
+      GitHub
+      <i class="bi bi-arrow-right-circle-fill"></i>
+    </button>
+  </a>
+  <a href="mailto:vivianasolizosinaga@gmail.com" target="_blank">
+    <button type="button" class="btn">
+      <i class="bi bi-envelope-at"></i>
+    </button>
+  </a>
+  <a href="https://www.linkedin.com/in/viviana-soliz-osinaga-16607b248/" target="_black" rel="noopener noreferrer">
+    <button type="button" class="btn">
+      Linkedin
+      <i class="bi bi-linkedin"></i>
+    </button>
+  </a>
+</footer>
+</html>
