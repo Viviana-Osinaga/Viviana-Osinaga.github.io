@@ -144,6 +144,29 @@ a {
     color: rgb(235,235,235);
     transition: 0.2;
 }
+form fieldset, legend{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+form  button {
+    align-items: center;
+    margin: auto;
+    display: block;
+}
+fieldset, label, input{
+    display: inline-block;
+    align-items:flex-start;
+}
+input {
+    width:250px;
+    height: auto;
+}
+textarea {
+    width: 250px;;
+}
+
 #contacto {
     display: flex;
     flex-direction: row;

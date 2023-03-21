@@ -49,7 +49,7 @@
                 <a class="nav-link text-white" href="#conocimientos">Conocimientos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#contacto">Contacto</a>
+                <a class="nav-link text-white" href="#formulario">Contacto</a>
               </li>
             </ul>
           </div>
@@ -129,26 +129,52 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="Proyecto-Cv.js"></script>
-</body>
 
-<!-- Contacto -->
-<footer id="contacto">
-  <a href="https://github.com/Viviana-Osinaga" target="_blank" rel="noopener noreferrer">
-    <button type="button" class="btn">
-      GitHub
-      <i class="bi bi-arrow-right-circle-fill"></i>
-    </button>
-  </a>
-  <a href="mailto:vivianasolizosinaga@gmail.com" target="_blank">
-    <button type="button" class="btn">
-      <i class="bi bi-envelope-at"></i>
-    </button>
-  </a>
-  <a href="https://www.linkedin.com/in/viviana-soliz-osinaga-16607b248/" target="_black" rel="noopener noreferrer">
-    <button type="button" class="btn">
-      Linkedin
-      <i class="bi bi-linkedin"></i>
-    </button>
-  </a>
-</footer>
+  <!--formulario de contacto-->
+  <form method="post" action="mailto:vivianasolizosinaga@gmail.com" id="formulario">
+    <fieldset>
+      <legend>Formulario de contacto</legend>
+
+      <label for="nombre">Nombre</label>
+      <input type="text" placeholder="nombre.." required>
+
+      <label for="apellido">Apellido</label>
+      <input type="text" placeholder="apellido.." required>
+
+      <label for="email">Email</label>
+      <input type="email" placeholder="email@gmail.com" required>
+
+      <label for="telefono">Telefono</label>
+      <input type="number" placeholder="telefono"required>
+
+      <label for="descripcion">Motivo de contacto</label>
+      <textarea type="descripcion"rows="3" cols="4" placeholder="Motivo de contacto" required>
+      </textarea>
+    </fieldset>
+    <button type="submit">Enviar</button>
+  </form>
+
+
+
+  <!-- Contacto -->
+  <footer id="contacto">
+    <a href="https://github.com/Viviana-Osinaga" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn">
+       GitHub
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+    <a href="mailto:vivianasolizosinaga@gmail.com" target="_blank">
+     <button type="button" class="btn">
+       <i class="bi bi-envelope-at"></i>
+     </button>
+   </a>
+   <a href="https://www.linkedin.com/in/viviana-soliz-osinaga-16607b248/" target="_black" rel="noopener noreferrer">
+      <button type="button" class="btn">
+       Linkedin
+        <i class="bi bi-linkedin"></i>
+     </button>
+   </a>
+  </footer>
+</body>
 </html>
