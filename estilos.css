@@ -108,7 +108,6 @@ h2 {
 
 .seccion-experiencias {
     margin: 5px, 50px;
-    /* max-height: max-content; */
 }
 .seccion-experiencias .container{
     margin: 0px, 50px;
@@ -119,10 +118,6 @@ h2 {
     text-align: center;
     flex-wrap: wrap;
     padding: 2rem 1rem;
-    /* display: grid;
-    gap: 1rem;
-    grid-auto-rows: 4rem;
-    grid-template-columns: repeat(auto-fill, minmax(6rem,1fr)); */
 }
 
 .seccion-experiencias .container p {
@@ -184,9 +179,15 @@ fieldset, label, input{
 input {
     width:250px;
     height: auto;
+    border-radius: 5px;
+    border-color:transparent;
+    outline: none;
 }
 textarea {
-    width: 250px;;
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
 }
 
 #contacto {
