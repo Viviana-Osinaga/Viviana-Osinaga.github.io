@@ -164,16 +164,18 @@ a {
     color: rgb(235,235,235);
     transition: 0.2;
 }
+form {
+    padding:1rem;
+}
 form fieldset, legend{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 18px;
     align-items: center;
 }
-form  button {
-    align-items: center;
+
+form .btn {
     margin: auto;
-    display: block;
 }
 fieldset, label, input{
     display: inline-block;
