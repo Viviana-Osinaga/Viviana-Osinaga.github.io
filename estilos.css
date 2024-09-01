@@ -70,6 +70,10 @@ i h1 {
     border: 4px 0 4px 0;
     border-style:solid;
     box-shadow: black inset 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
@@ -103,6 +107,15 @@ h2 {
     font-size:xx-large;
     font-weight: bold;
 }
+.tecnologias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: max-content;
+    margin-bottom: 1rem;
+}
 
 /* seccion-experiencias */
 
@@ -126,6 +139,24 @@ h2 {
     width: 100%;
     font-family:'Courier New', Courier, monospace;
 }
+.container-experiencias {
+    padding: 2rem;
+    display: grid;
+    /* gap: 1rem; */
+    grid-auto-rows: 15rem;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+}
+.container-experiencias img {
+    width: 15rem;
+    height: 13rem;
+    margin: 2rem;
+    filter: drop-shadow(0 0 1rem white);
+}
+.container-experiencias img:hover {
+    filter:drop-shadow(0 0 2rem white);
+}
+
+/* Conocimientos */
 .seccion-conocimiento {
     background-color: rgb(160, 132, 220);
 }
