@@ -13,6 +13,7 @@ h1, i {
     text-align: right;
     justify-content: flex-end;
 }
+
 .navbar {
     top:0px;
     background-color: rgb(100,92,187);
@@ -26,6 +27,7 @@ h1, i {
 }
 body {
     background-color: rgb(191,172,226);
+    color: rgb(255, 255, 255);
 }
 
 i h1 {
@@ -66,7 +68,7 @@ i h1 {
 
 .seccion-hero {
     background-color: rgb(160, 132, 220);
-    border-color: rgb(40,40,40);
+    color: rgb(255, 255, 255);
     border: 4px 0 4px 0;
     border-style:solid;
     box-shadow: black inset 10px;
@@ -142,7 +144,6 @@ h2 {
 .container-experiencias {
     padding: 2rem;
     display: grid;
-    /* gap: 1rem; */
     grid-auto-rows: 15rem;
     grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
 }
@@ -153,7 +154,7 @@ h2 {
     filter: drop-shadow(0 0 1rem white);
 }
 .container-experiencias img:hover {
-    filter:drop-shadow(0 0 2rem white);
+    filter: drop-shadow(0 0 2rem white);
 }
 
 /* Conocimientos */
