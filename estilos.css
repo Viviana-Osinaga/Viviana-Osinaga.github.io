@@ -42,26 +42,29 @@ i h1 {
     align-items: center;
 }
 .foto1 {
-    border-style: solid;
+    border: 1px solid rgb(255, 255, 255);
     width: 80%;
     height: 8vh;
     opacity: 0.8;
     max-width: 100%;
     height: auto;
     max-width: 80%;
+    transition: 0.5s;
 }
 .foto1:hover {
     opacity: 1;
+    filter: drop-shadow(4px 4px 13px rgb(40,40,40));
 }
 .imagen-de-fondo .rounded-circle{
     width: 25%;
     height: 30%;
     margin-top: 10px;
     margin-bottom: 0;
-    border-style: ridge;
+    border: 1px solid rgb(255, 255, 255);
+    transition: filter 0.5s;
 }
 .rounded-circle:hover {
-    box-shadow: 4px 4px 13px rgb(40,40,40);
+    filter: drop-shadow(4px 4px 13px rgb(40,40,40));
 }
 
 /* seccion-hero */
@@ -151,10 +154,11 @@ h2 {
     width: 15rem;
     height: 13rem;
     margin: 2rem;
-    filter: drop-shadow(0 0 1rem white);
+    filter: drop-shadow(4px 4px 13px rgb(40,40,40));
+    transition: 0.5s;
 }
 .container-experiencias img:hover {
-    filter: drop-shadow(0 0 2rem white);
+    filter: drop-shadow(4px 4px 13px white);
 }
 
 /* Conocimientos */
