@@ -22,7 +22,7 @@ h1, i {
 }
 .nav-item:hover {
     border: 3px;
-    text-shadow: 8px 6px 6px rgb(40,40,40);
+    text-shadow: 8px 8px 12px rgb(40,40,40);
     text-decoration: solid;
 }
 body {
@@ -195,6 +195,9 @@ a {
     color: rgb(235,235,235);
     transition: 0.2;
 }
+
+/*  Formulario  */
+
 form {
     padding:1rem;
 }
@@ -231,7 +234,9 @@ textarea {
     flex-direction: row;
     justify-content: center;
 }
-
+input:focus {
+    outline: 1px solid #1E92E9;
+}
 
 @media screen and (max-width: 630px) {
     .row {
