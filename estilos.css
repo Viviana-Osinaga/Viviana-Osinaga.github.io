@@ -238,10 +238,11 @@ input:focus {
     outline: 1px solid #1E92E9;
 }
 .warnings {
-    color:red;
+    color:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
     height: 1rem;
+    margin: 1rem;
 }
 
 @media screen and (max-width: 630px) {
